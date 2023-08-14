@@ -1,3 +1,14 @@
 <body>
-  <h1>Hola mundo</h1>
+  <div id="box">
+    <div class="divisor">
+      <h1>Bienvenido a la Banca en Linea</h1>
+      <input type="text" #usuario placeholder="Usuario">
+      <input type="password" #pass placeholder="contraseña">
+      <button (click)="actualizarDato(usuario.value, pass.value)">Iniciar Sesion</button>
+    </div>
+    <div class="divisor">
+      <img src="../../assets/media/vivibanco-logo.png" alt="">
+      <h3>con mas de 20 años de experiencia en el mercado!</h3>
+    </div>
+  </div>
 </body>
